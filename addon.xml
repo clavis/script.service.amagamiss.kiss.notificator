@@ -1,0 +1,11 @@
+<?xml version='1.0' encoding='UTF-8' standalone='yes'?>
+<addon id="script.service.amagamiss.kiss.notificator" name="Amagami SS Kiss Notificator" provider-name="clavis au" version="1.0">
+    <requires>
+        <import addon="xbmc.addon" version="12.0.0"/>
+        <import addon="xbmc.python" version="2.1.0"/>
+    </requires>
+    <extension library="service.py" point="xbmc.service" start="login"/>
+    <extension point="xbmc.addon.metadata">
+        <platform>linux</platform>
+    </extension>
+</addon>
